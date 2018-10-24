@@ -125,12 +125,13 @@ class ParallaxScrollView extends Component {
 			renderStickyHeader
 		})
 		const scrollElement = renderScrollComponent(scrollViewProps)
+		const hasParallaxForeground = renderForeground ? true : false
 		return (
 			<View
 				style={[style, styles.container]}
 				onLayout={e => this._maybeUpdateViewDimensions(e)}
 			>
-				{background}
+				{hasParallaxForeground ? background : null}
 				{React.cloneElement(
 					scrollElement,
 					{
@@ -145,6 +146,7 @@ class ParallaxScrollView extends Component {
 						// onScroll: this._onScroll.bind(this)
 					},
 					foreground,
+					!hasParallaxForeground ? background : null,
 					bodyComponent,
 					footerSpacer
 				)}
