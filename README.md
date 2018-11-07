@@ -1,6 +1,10 @@
-[![](https://img.shields.io/npm/dm/react-native-parallax-scroll-view.svg?style=flat-square)](https://www.npmjs.com/package/react-native-parallax-scroll-view)
+[![](https://img.shields.io/npm/dm/@leeroy/react-native-parallax-scroll-view.svg?style=flat-square)](https://www.npmjs.com/package/@leeroy/react-native-parallax-scroll-view)
 
-[![NPM](https://nodei.co/npm/react-native-parallax-scroll-view.png)](https://www.npmjs.com/package/react-native-parallax-scroll-view)
+[![NPM](https://nodei.co/npm/@leeroy/react-native-parallax-scroll-view.png)](https://www.npmjs.com/package/@leeroy/react-native-parallax-scroll-view)
+
+# @leeroy/react-native-parallax-scroll-view
+
+Several improvements/changes from original. See commit history for more details.
 
 # Rodrigocs - Animated Driver
 
